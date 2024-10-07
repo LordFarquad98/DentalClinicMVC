@@ -8,7 +8,7 @@ public class DB {
     private static final String DRIVER ="org.h2.Driver";
     private static final String URL = "jdbc:h2:./dc";
     private static final String USER = "sa";
-    private static final String PASSWORD = "password";
+    private static final String  PASSWORD = "password";
     private static final String SQL_DROP_CREATE_ADDRESSES = "DROP TABLE IF EXISTS ADDRESSES; CREATE TABLE ADDRESSES(ID INT AUTO_INCREMENT PRIMARY KEY,"+
             " STREET VARCHAR(100) NOT NULL,"+
             " NUMBER INT NOT NULL,"+
